@@ -156,9 +156,13 @@ streamlit run app.py
 
 **Prashant Sharma**
 B.Tech CSE (AI & Data Science) — GLA University, Mathura
-📧 prashant.sharma_cs24@gla.ac.in
-🔗 [LinkedIn](https://linkedin.com/in/prashant-sharma-52492b330)
-🐙 [GitHub](https://github.com/theprashantsharma666)
+
+- 📧 prashant.sharma_cs24@gla.ac.in
+
+- 🔗 [LinkedIn](https://linkedin.com/in/prashant-sharma-52492b330)
+
+
+- 🐙 [GitHub](https://github.com/theprashantsharma666)
 
 ---
 
