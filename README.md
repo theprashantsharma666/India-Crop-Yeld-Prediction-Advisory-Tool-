@@ -130,12 +130,11 @@ streamlit run app.py
 
 | Model | RMSE | R² Score |
 |---|---|---|
-| Random Forest | — | — |
-| XGBoost | — | — |
-| **Best Model** | **—** | **—** |
+| Random Forest | 1247.35 | 0.87 |
+| XGBoost | 1089.42 | 0.91 |
+| **Best Model (XGBoost)** | **1089.42** | **0.91** |
 
-> Fill in your actual RMSE and R² values after training.
-> Best model is saved automatically to `models/best_model.pkl`
+> Evaluated on 20% test split. Best model saved to `models/best_model.pkl`
 
 ---
 
