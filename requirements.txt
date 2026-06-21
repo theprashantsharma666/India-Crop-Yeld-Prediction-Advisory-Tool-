@@ -1,1 +1,17 @@
+# ── Core Data Processing ──────────────────────────────────────
+pandas==2.2.2          # Data manipulation and analysis
+numpy==1.26.4          # Numerical computing and array operations
 
+# ── Machine Learning ──────────────────────────────────────────
+scikit-learn==1.4.2    # Random Forest, preprocessing, model evaluation
+xgboost==2.0.3         # XGBoost regression model
+
+# ── Model Persistence ─────────────────────────────────────────
+joblib==1.4.0          # Save and load trained ML models (.pkl)
+
+# ── Visualization ─────────────────────────────────────────────
+matplotlib==3.8.4      # Static charts and plots
+seaborn==0.13.2        # Statistical data visualization
+
+# ── Web Application ───────────────────────────────────────────
+streamlit==1.33.0      # Interactive web app and dashboard UI
