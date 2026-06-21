@@ -55,21 +55,22 @@ insights across similar conditions.
 ## 📂 Project Structure
 india-crop-yield-prediction/
 │
-├── app.py                  # Streamlit app entry point
-├── main.py                 # Main pipeline orchestrator
-├── preprocessor.py         # Data cleaning & feature engineering
-├── helper.py               # Utility functions
-├── eda.py                  # Exploratory data analysis logic
-├── visualization.py        # Chart and plot generation
+├── app.py                  # Streamlit app — UI, user inputs, displays prediction
+├── main.py                 # Trains models, evaluates RMSE & R², saves best model
+├── preprocessor.py         # Data cleaning, encoding, scaling pipeline
+├── helper.py               # Utility functions — load model, predict, format output
+├── eda.py                  # EDA logic — summary stats, distributions, correlations
+├── visualization.py        # All charts & plots — yield trends, state-wise, seasonal
 │
 ├── data/
-│   ├── crop_yield.csv      # FAO yield dataset
-│   └── soil_data.csv       # Kaggle soil dataset
+│   ├── crop_yield.csv      # FAO yield dataset (state, crop, year, production, area)
+│   └── soil_data.csv       # Kaggle soil dataset (N, P, K, pH by region)
 │
 ├── models/
-│   └── best_model.pkl      # Saved trained model
+│   └── best_model.pkl      # Saved best model (Random Forest or XGBoost)
 │
-├── requirements.txt
+├── requirements.txt        # All dependencies (pandas, scikit-learn, xgboost, streamlit)
+├── .gitignore              # Ignore venv/, __pycache__/, *.pyc, .env
 └── README.md
 
 ---
